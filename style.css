@@ -1,0 +1,39 @@
+/* style.css */
+body {
+    font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
+/* Dark mode style */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winners-list {
+    border: 1px solid var(--light-mode-border-color); /* Dark mode border color by default */
+    padding: 15px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+:root {
+    --light-mode-border-color: #333;
+    --dark-mode-border-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Impact', sans-serif;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
