@@ -14,7 +14,7 @@ Usage:
 
 To use the Giveaway Winner Picker, follow these steps:
 1. Open the "index.html" file in your web browser.
-2. Click the "Upload the list of participants (.csv)" button and select a CSV file containing the list of participants and their entry counts. Check the "sample.csv" file included with the package.
+2. Click the "Upload the list of participants (.csv)" button and select a CSV file containing the list of participants and their entry counts. Check the "sample.csv" file included with the package for reference.
 3. Enter the number of winners you want to draw in the "Number of Winners" input field.
 4. After uploading the participant list and specifying the number of winners, click the "Draw" button.
 
